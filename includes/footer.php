@@ -1,0 +1,1 @@
+<footer>Todo app 2024 © tous droit réservés</footer>

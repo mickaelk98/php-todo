@@ -22,12 +22,32 @@ html, body {
     background: var(--background-light);
 }
 
+h1 {
+    margin-bottom: 1rem;
+}
+
 .container {
     font-size: 1.6rem;
     min-height: 100vh;
     display: flex;
     flex-flow: column;
     color: var(--text-color);
+}
+/** btn */
+.btn {
+    background: white;
+    font-weight: 700;
+    color: var(--text-color);
+    padding: 0.5rem;
+    cursor: pointer;
+    font-size: 1.6rem;
+    border: none;
+    border-radius: 3px;
+}
+
+.btn-primary {
+    background: var(--primary);
+    color: var(--text-color-light);
 }
 
 /** Header */
@@ -65,6 +85,24 @@ header {
 
 .todo-container h1 {
     text-align: center;
+}
+
+.todo-form {
+    display: flex;
+    align-items: center;
+    flex-flow: row nowrap;
+}
+
+.todo-form input {
+    flex: 1;
+    margin: 0 0.5rem;
+    padding: 0.5rem;
+    border: var(--border);
+    border-radius: 3px;
+}
+
+.todo-form button {
+
 }
 
 /** footer */
