@@ -5,6 +5,7 @@
     --background-light: #ecf0f1;
     --text-color: #444;
     --text-color-light: #fff;
+    --danger: #ff5747;
     --box-shadow: rgba(17, 17, 26, 0.1) 0px 1px 0px, rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 48px;
     --todo-box-shadow:rgba(14, 30, 37, 0.12) 0px 2px 4px 0px, rgba(14, 30, 37, 0.32) 0px 2px 16px 0px;
     --border: 1px solid #ddd;
@@ -33,6 +34,12 @@ h1 {
     flex-flow: column;
     color: var(--text-color);
 }
+
+.text-danger {
+    color: var(--danger);
+    font-size: 1.2rem;
+}
+
 /** btn */
 .btn {
     background: white;
@@ -99,10 +106,6 @@ header {
     padding: 0.5rem;
     border: var(--border);
     border-radius: 3px;
-}
-
-.todo-form button {
-
 }
 
 /** footer */
